@@ -1,6 +1,6 @@
 # Chaphe-Bookstore-with-Ingress
 
-<div style="text-align: right"> your-text-here </div>
+<div style="text-align": right> your-text-here </div>
 
 ## Organización
 * INSERT Organization
