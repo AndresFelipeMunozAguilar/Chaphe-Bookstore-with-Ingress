@@ -7,6 +7,7 @@ Este taller está pensado para ser ejecutado a través de docker Desktop y Kuber
 ## Organización
 * La carpeta "source" contienen los archivos a los cuales se accederán para hacer el deployment mediante archivos YAML
 * La carpeta "DeploymentFiles" contiene los archivos YAML (Yet Another Markup Language) mediante los cuales se accederá a los archivos en source para aplicarlos en un cluster remoto y hacer el despliegue de la aplicación. Esta carpeta, también contiene los archivos ingress usados para el despliegue
+* La carpeta "Ingress" posee los archivos creados para la adminsitración y el deployment del ingress con nginx. Desde aquí se puede ver el manifiesto de versiones, para versionamiento y, además, el archivo de deployment que permite hacer el despliegue para usar ingress para el enrutamiento de los servicios
 
 ## Creadores
 Andrés Felipe Muñoz Aguilar - 2210087 \
