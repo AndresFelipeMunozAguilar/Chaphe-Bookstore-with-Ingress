@@ -5,15 +5,15 @@ Este taller está pensado para ser ejecutado a través de docker Desktop y Kuber
 </p>
 
 ## Organización
-* La carpeta "source" contienen los archivos a los cuales se accederán para hacer el deployment mediante archivos YAML
-* La carpeta "DeploymentFiles" contiene los archivos YAML (Yet Another Markup Language) mediante los cuales se accederá a los archivos en source para aplicarlos en un cluster remoto y hacer el despliegue de la aplicación. Esta carpeta, también contiene los archivos ingress usados para el despliegue
-* La carpeta "Ingress" posee los archivos creados para la adminsitración y el deployment del ingress con nginx. Desde aquí se puede ver el manifiesto de versiones, para versionamiento y, además, el archivo de deployment que permite hacer el despliegue para usar ingress para el enrutamiento de los servicios
+* <p align='justify'>La carpeta "source" contienen los archivos a los cuales se accederán para hacer el deployment mediante archivos YAML</p>
+* <p align='justify'>La carpeta "DeploymentFiles" contiene los archivos YAML (Yet Another Markup Language) mediante los cuales se accederá a los archivos en source para aplicarlos en un cluster remoto y hacer el despliegue de la aplicación. Esta carpeta, también contiene los archivos ingress usados para el despliegue</p>
+* <p align='justify'>La carpeta "Ingress" posee los archivos creados para la adminsitración y el deployment del ingress con nginx. Desde aquí se puede ver el manifiesto de versiones, para versionamiento y, además, el archivo de deployment que permite hacer el despliegue para usar ingress para el enrutamiento de los servicios</p>
 
 ## Creadores
 Andrés Felipe Muñoz Aguilar - 2210087 \
 Marisol Osma Llanes – 2211466
 
 ### Referencias
-* Guy, T. D. [@MarcelDempers]. (2023, marzo 19). How to use NGINX Ingress with Kubernetes in 2023. Youtube. https://www.youtube.com/watch?v=72zYxSxifpM
-* Nana, T. W. [@TechWorldwithNana]. (2020, marzo 14). Kubernetes Ingress Tutorial for Beginners | simply explained | Kubernetes Tutorial 22. Youtube. https://www.youtube.com/watch?v=80Ew_fsV4rM
-* Roper, J. (s. f.). Kubernetes Ingress with NGINX Ingress controller example. Spacelift. Recuperado 8 de mayo de 2024, de https://spacelift.io/blog/kubernetes-ingress
+* <p align='justify'>Guy, T. D. [@MarcelDempers]. (2023, marzo 19). How to use NGINX Ingress with Kubernetes in 2023. Youtube. https://www.youtube.com/watch?v=72zYxSxifpM</p>
+* <p align='justify'>Nana, T. W. [@TechWorldwithNana]. (2020, marzo 14). Kubernetes Ingress Tutorial for Beginners | simply explained | Kubernetes Tutorial 22. Youtube. https://www.youtube.com/watch?v=80Ew_fsV4rM</p>
+* <p align='justify'>Roper, J. (s. f.). Kubernetes Ingress with NGINX Ingress controller example. Spacelift. Recuperado 8 de mayo de 2024, de https://spacelift.io/blog/kubernetes-ingress</p>
