@@ -14,4 +14,6 @@ Andrés Felipe Muñoz Aguilar - 2210087 \
 Marisol Osma Llanes – 2211466
 
 ### Referencias
-* INSERT LINK
+* Guy, T. D. [@MarcelDempers]. (2023, marzo 19). How to use NGINX Ingress with Kubernetes in 2023. Youtube. https://www.youtube.com/watch?v=72zYxSxifpM
+
+
