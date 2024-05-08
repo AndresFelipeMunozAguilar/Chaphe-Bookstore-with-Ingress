@@ -16,4 +16,4 @@ Marisol Osma Llanes – 2211466
 ### Referencias
 * Guy, T. D. [@MarcelDempers]. (2023, marzo 19). How to use NGINX Ingress with Kubernetes in 2023. Youtube. https://www.youtube.com/watch?v=72zYxSxifpM
 * Nana, T. W. [@TechWorldwithNana]. (2020, marzo 14). Kubernetes Ingress Tutorial for Beginners | simply explained | Kubernetes Tutorial 22. Youtube. https://www.youtube.com/watch?v=80Ew_fsV4rM
-*
+* Roper, J. (s. f.). Kubernetes Ingress with NGINX Ingress controller example. Spacelift. Recuperado 8 de mayo de 2024, de https://spacelift.io/blog/kubernetes-ingress
