@@ -16,7 +16,7 @@ spec:
           service:
             name: frontend-catalog-service
             port:
-              number: 30100
+              number: 80
 
 ---
 
@@ -38,7 +38,7 @@ spec:
           service:
             name: frontend-reviews-service
             port:
-              number: 30101
+              number: 80
 
 ---
 
@@ -60,4 +60,4 @@ spec:
           service:
             name: frontend-store-service
             port:
-              number: 30102
+              number: 80
