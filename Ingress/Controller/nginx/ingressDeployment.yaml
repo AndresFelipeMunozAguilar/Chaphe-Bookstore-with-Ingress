@@ -2,15 +2,13 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: servicio-ingress-catalog
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
-  - host: publico.chaphe-bookstore.com
+  - host: chaphe-bookstore.catalog.com
     http:
       paths:
-      - path: /catalog
+      - path: /
         pathType: Prefix
         backend:
           service:
@@ -24,15 +22,13 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: servicio-ingress-reviews
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
-  - host: publico.chaphe-bookstore.com
+  - host: chaphe-bookstore.reviews.com
     http:
       paths:
-      - path: /reviews
+      - path: /
         pathType: Prefix
         backend:
           service:
@@ -46,15 +42,13 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: servicio-ingress-store
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
-  - host: publico.chaphe-bookstore.com
+  - host: chaphe-bookstore.store.com
     http:
       paths:
-      - path: /store
+      - path: /
         pathType: Prefix
         backend:
           service:
